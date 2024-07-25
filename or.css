@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+ul{
+list-style-type: none;
+width: 20%;
+height: 800px;
+padding: 0px;
+margin: 0px;
+background-color: rgb(163, 213, 215);
+border: 1px solid black;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+li:hover{
+    background-color: green;
+}
+li:active{
+    background-color: tomato;
+}
+::selection{
+    background-color: yellow;
+    color: aquamarine;
+}
+:root{
+    background-color: violet
+}
+div{
+    position: absolute;
+    top: 0px;
+margin-left: 25%;
+}
